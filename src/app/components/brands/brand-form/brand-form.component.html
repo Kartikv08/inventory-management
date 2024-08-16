@@ -1,0 +1,17 @@
+<div class="flex justify-center">
+    <form style="width: 600px;" class="shadow-border bg-white p-8">
+        <mat-label>Brand Name</mat-label>
+        <mat-form-field appearance="outline" class="w-full mt-2">
+            <input type="text" matInput name="name" [(ngModel)]="name" />
+        </mat-form-field>
+        <div class="w-full flex justify-center">
+            @if(brand){
+                <button mat-raised-button
+                style="background-color: #60a5fa; color: white;" (click)="updateBrand()">Update</button>
+            } @else{
+                <button mat-raised-button
+                style="background-color: #60a5fa; color: white;" (click)="addBrand()">Add</button>
+            }
+        </div>
+    </form>
+</div>

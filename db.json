@@ -1,0 +1,109 @@
+{
+  "brands": [
+    {
+      "id": "1",
+      "name": "LGGGG"
+    },
+    {
+      "id": "2",
+      "name": "Samsung"
+    },
+    {
+      "id": "3",
+      "name": "Apple"
+    },
+    {
+      "id": "4",
+      "name": "Sony"
+    },
+    {
+      "id": "5",
+      "name": "Micromax"
+    },
+    {
+      "id": "6",
+      "name": "HP"
+    },
+    {
+      "id": "7",
+      "name": "Intel"
+    },
+    {
+      "id": "8",
+      "name": "OnePlus"
+    },
+    {
+      "id": "9",
+      "name": "OPPO"
+    },
+    {
+      "id": "10",
+      "name": "RealMe"
+    },
+    {
+      "id": "11",
+      "name": "Asus"
+    },
+    {
+      "id": "424e",
+      "name": "Kartikk"
+    },
+    {
+      "id": "f7db",
+      "name": "Samsung"
+    },
+    {
+      "id": "65f9",
+      "name": "LGGG"
+    }
+  ],
+  "products": [
+    {
+      "name": "LG Machine",
+      "details": "New Lg Automatic Machine",
+      "brandId": "1",
+      "salePrice": "21000",
+      "purchasePrice": "27000",
+      "availableQuantity": "21412",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Iphone 15",
+      "details": "New Iphone 15",
+      "brandId": "3",
+      "salePrice": "70000",
+      "purchasePrice": "79000",
+      "availableQuantity": 72
+    },
+    {
+      "id": "e6e3",
+      "name": "Iphone 15",
+      "details": "",
+      "brandId": "3",
+      "salePrice": 74900,
+      "purchasePrice": 79900,
+      "availableQuantity": 57
+    },
+    {
+      "name": "LG Machine",
+      "details": "New Lg Automatic Machiness",
+      "brandId": "1",
+      "salePrice": 22000,
+      "purchasePrice": "27000",
+      "availableQuantity": 4,
+      "id": "3616"
+    }
+  ],
+  "orders": [
+    {
+      "id": "64a7",
+      "orderNo": "34",
+      "productId": "3616",
+      "quantity": 23,
+      "salePrice": 22000,
+      "discount": 10000,
+      "totalAmount": 496000
+    }
+  ]
+}
